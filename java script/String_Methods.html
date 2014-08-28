@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">Please locate where 'locate' occurs!.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+
+
+
+<p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+
+<p id="demo">Please visit Microsoft!</p>
+
+
+<script>
+/* 
+function myFunction() {
+    var str = document.getElementById("p1").innerHTML;
+    var pos = str.indexOf("locate");
+    document.getElementById("demo").innerHTML = pos;
+}
+
+*/
+
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML; 
+    var txt = str.replace("Microsoft","W3Schools");
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
