@@ -7,18 +7,29 @@
 
 <body>
 
+
+<button onclick="addAllTheNumbersBetweenTwoGivenNumbers()"> calculate </button>  <!-- call function by function name -->
+
+<p id="math"></p> <!-- Call ID for display result -->
+
+
+
+
 <script>
 
+function addAllTheNumbersBetweenTwoGivenNumbers() {
+
 var startNumber = 1
-var endNumber = 5
+var endNumber = 100
 sum = 0;
 
 for(var i = startNumber; i<=endNumber; i++)
   {
 	  sum = sum + i;
   }
-  document.write('Total = ' + sum);
+  document.getElementById("math").innerHTML = sum; // Display result
 
+}
 
 </script>
 </body>
