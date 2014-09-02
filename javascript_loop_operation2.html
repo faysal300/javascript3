@@ -1,0 +1,46 @@
+<html>
+      <head>
+	  
+        <title> Javascript Loop Operation </title>
+
+        
+      </head>
+
+      <body>
+	  
+        <form name="myform">
+		
+          Enter Start Number <input type="text" name="startnumber" placeholder="start number"> <br><br>  <!-- startNumber -->
+		  
+          Enter End Number <input type="text" name="endnumber"  placeholder="end number"> <br><br> <!-- endNumber -->
+		  
+          <input type="button" name="button" value="calculate" onclick="addAllTheNumbersBetweenTwoGivenNumbers()"> <!-- call my function -->
+		  
+		  <INPUT TYPE="text" ID="math" NAME="result" VALUE="" placeholder="result"> <!-- Call ID for display result -->
+		  
+          
+		  
+        </form>
+		
+		
+		<script>
+		
+          function addAllTheNumbersBetweenTwoGivenNumbers()
+          {
+             var startNumber = Number(document.myform.startnumber.value);
+             var endNumber = Number(document.myform.endnumber.value);
+             var sum = 0;
+			 
+			 for(var i = startNumber; i<=endNumber; i++)
+			 {
+			     sum = sum + i;
+			 }
+			 
+             document.getElementById('math').value = sum;
+          }
+		  
+        </script>
+
+      </body>
+	  
+</html>
