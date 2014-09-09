@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0px; padding:0px;}
+
+a { text-decoration:none;}
+
+clear { clear:both;}
+
+ul li { list-style:none; display:inline-block;}
+
+
+.carousel { margin-top:60px}
+
+
+.area { border:1px solid #999; border-radius:4px; margin-top:30px;}
+.ggg img{ width:35%; float:right; padding:3px; margin:25px; 10px;}
+.console h4 { color:#0C6;}
+.console { padding:10px;}
+.console a { color:#FFF; }
+
+
+
+
+
+.newproducts { padding:3px; border:1px solid #CCC; border-radius:4px; margin-top:30px;}
+
+.newproduct { padding:15px;}
+
+.shop { background:#2C2C2C; }
+.shop:hover { background:#71AE2D; color:#FFF;}
+
+.addtocart { background:#71AE2D; }
+.addtocart a {color:#FFF;}
+.addtocart:hover { background:#2C2C2C; color:#FFF;}
+.addtocart:hover a {color:#FFF;}
+
+.Details { transition:.8s;}
+.Details:hover { background:#2C2C2C; color:#FFF;}
+
+
+
+
+.hosting img { border:1px solid #008000;
+               margin-left:56px;
+			   margin-top:30px; 
+			   border-radius:5px; 
+			   width:50%;
+			  
+			   }
+
+
+
+
+
+/* CSS for Bottom & Footer */
+
+.wet-asphalt { margin-top:30px;}
+
+#bottom { background:#333; padding-top:30px; padding-bottom:30px; color:#fff;}
+
+#bottom a { color:#fff;}
+
+#footer { background:#333; padding-bottom:30px; color:#fff;}
+
+#footer a { color:#fff;}
+
